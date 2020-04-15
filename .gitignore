@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug
+/obj/Debug
+/.vs/BerlinClock/v16/TestStore/0
+/packages/MSTest.TestFramework.2.1.0
+/packages/SpecFlow.1.9.0
+/packages/MSTest.TestAdapter.2.1.0
