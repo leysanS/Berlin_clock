@@ -50,14 +50,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
+    <Compile Include="Builders\ClockBuilder.cs" />
+    <Compile Include="Builders\BaseComplexTimeEntityBuilder.cs" />
+    <Compile Include="Builders\HourBuilder.cs" />
+    <Compile Include="Builders\MinuteBuilder.cs" />
+    <Compile Include="Builders\SecondsBuilder.cs" />
+    <Compile Include="Interfaces\ITimeToBerlinClockConverter.cs" />
+    <Compile Include="Services\TimeToBerlinClockConverter.cs" />
+    <Compile Include="Services\Parser.cs" />
+    <Compile Include="Interfaces\IInputValidator.cs" />
+    <Compile Include="Services\InputValidator.cs" />
+    <Compile Include="Entities\Clock.cs" />
+    <Compile Include="Enums\Color.cs" />
+    <Compile Include="Entities\Lamp.cs" />
+    <Compile Include="Entities\Row.cs" />
+    <Compile Include="Entities\TimeEntity.cs" />
+    <Compile Include="Interfaces\IParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BerlinClockFeatureSteps.feature</DependentUpon>
     </Compile>
-    <Compile Include="Classes\ITimeConverter.cs" />
-    <Compile Include="Classes\TimeConverter.cs" />
+    <Compile Include="Interfaces\ITimeConverter.cs" />
+    <Compile Include="Services\TimeConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
